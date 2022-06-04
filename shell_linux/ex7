@@ -1,0 +1,9 @@
+echo "Write the base of the rectangle value: "
+read base
+
+echo "Write the height of the rectangle value: "
+read height
+
+perimeter=$((2*($base + $height)))
+
+echo "Perimeter of the rectangle: $perimeter"

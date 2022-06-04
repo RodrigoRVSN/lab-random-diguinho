@@ -1,0 +1,10 @@
+echo "Write the first number: "
+read firstNumber
+
+echo "Write the second number: "
+read secondNumber
+
+sum=$(($firstNumber + $secondNumber))
+multiply=$(($firstNumber * $secondNumber))
+
+echo "Sum: $sum\nMultiply: $multiply"
