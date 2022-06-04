@@ -1,0 +1,8 @@
+
+whoami
+
+echo "\nWorkdir of this directory: "
+
+pwd
+
+ls --help

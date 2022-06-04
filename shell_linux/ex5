@@ -1,0 +1,13 @@
+clear
+
+echo "You want to know the actual hour (y/n)?"
+read option
+
+if [ "$option" = "y" ]
+  then
+	dateNow=$(date)
+	echo "The actual hour now is: $dateNow"
+  else
+   	exit
+fi
+
