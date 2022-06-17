@@ -1,0 +1,103 @@
+:root {
+  --background: #06283D;
+  --text: #DFF6FF;
+  --primary: #1363DF;
+  --secondary: #47B5FF;
+  --delete: #F32424;
+}
+
+* {
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-input {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 0.6rem;
+}
+
+.todo-input::placeholder {
+  color: var(--background);
+}
+
+.todo-input:focus {
+  border: 1px solid var(--primary);
+}
+
+.todo-button {
+  background-color: var(--secondary);
+  border-radius: 0.2rem;
+  cursor: pointer;
+  padding: 0.6rem;
+  transition: 0.3s ease-out;
+}
+
+.todo-button:hover {
+  background-color: var(--text);
+}
+
+.todo-item {
+  align-items: center;
+  animation: moveDown 0.6s ease-in;
+  background-color: var(--primary);
+  border-radius: 1rem;
+  box-shadow: 5px 4px 15px var(--secondary);
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+  padding: 1rem 2rem;
+  transition: 0.3s ease-out;
+}
+
+.todo-item:hover {
+  background-color: var(--text);
+  color: var(--background);
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateX(-1rem); 
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.todo-not-found {
+  animation: rotate infinite alternate-reverse 8s;
+  font-size: 8rem;
+  margin-top: 5rem;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(20deg); 
+  }
+  to {
+    transform: rotate(-20deg);
+  }
+}
+
+.todo-remove {
+  background-color: transparent;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+

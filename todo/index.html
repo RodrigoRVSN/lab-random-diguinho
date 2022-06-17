@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Todo</title>
+</head>
+<body>
+  
+  <main>
+    <h1>Your To Do 📝</h1>
+
+    <form onsubmit="submitForm(event)">
+      <input class="todo-input" placeholder="What you will do?" />
+      <button 
+        class="todo-button" 
+        type="submit" 
+      >➕
+      </button>
+    </form>
+
+    <div class="todo-container"></div>
+
+    <span class="todo-not-found">🤔</span>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
