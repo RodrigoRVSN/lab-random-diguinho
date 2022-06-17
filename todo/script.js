@@ -1,12 +1,12 @@
 const submitForm = (event) => {
   event.preventDefault()
-  document.getElementsByClassName('todo-not-found')[0].style.display = 'none'
 
   const input = document.getElementsByClassName('todo-input')[0]
   const value = input.value
 
   if(!value.trim()) return
 
+  document.getElementsByClassName('todo-not-found')[0].style.display = 'none'
   const container = document.getElementsByClassName('todo-container')[0]
 
   const element = document.createElement('p')
