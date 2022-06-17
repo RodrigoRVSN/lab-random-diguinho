@@ -1,0 +1,1 @@
+# Exercises with shell script in terminal
