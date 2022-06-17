@@ -1,7 +1,7 @@
 let timer 
-let initialHours = document.getElementsByClassName('hours')[0].textContent
-let initialMinutes = document.getElementsByClassName('minutes')[0].textContent
-let initialSeconds = document.getElementsByClassName('seconds')[0].textContent
+const initialHours = document.getElementsByClassName('hours')[0].textContent
+const initialMinutes = document.getElementsByClassName('minutes')[0].textContent
+const initialSeconds = document.getElementsByClassName('seconds')[0].textContent
 
 const getDifference = (date) => {
   const now = new Date().getTime()
@@ -29,7 +29,6 @@ const startCount = () => {
     
     if (difference < 2) {
       playAudio()
-      clearInterval(timer)
       resetCount()
     }
    
