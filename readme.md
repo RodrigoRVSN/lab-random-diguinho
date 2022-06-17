@@ -1,4 +1,4 @@
-# Repository with dandom simple projects
+# Repository with random simple projects
 
 - HTML5
 - CSS3
