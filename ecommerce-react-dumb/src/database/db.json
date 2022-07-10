@@ -1,0 +1,9 @@
+{
+  "products": [
+    { "id": 1, "name": "Cafe gotozin", "price": 4.39, "description": "Expresso Diluido", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcjkkYabyZB91V3roOiN-1A6IzoRzc4wV-Q&usqp=CAU" },
+    { "id": 2, "name": "Cafe gostoso", "price": 5.9, "description": "Expresso Diluido", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcjkkYabyZB91V3roOiN-1A6IzoRzc4wV-Q&usqp=CAU" },
+    { "id": 3, "name": "Cafe expresso", "price": 1.9, "description": "Expresso Diluido", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcjkkYabyZB91V3roOiN-1A6IzoRzc4wV-Q&usqp=CAU" },
+    { "id": 4, "name": "Cafe cremoso", "price": 7.9, "description": "Expresso Diluidasso", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcjkkYabyZB91V3roOiN-1A6IzoRzc4wV-Q&usqp=CAU" },
+    { "id": 5, "name": "Cafe ao leite", "price": 9.9, "description": "Expresso Diluido", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcjkkYabyZB91V3roOiN-1A6IzoRzc4wV-Q&usqp=CAU" }
+  ]
+}
