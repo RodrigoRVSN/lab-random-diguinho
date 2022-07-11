@@ -22,6 +22,19 @@ export function Counter() {
     ...decrement(),
     meta: {
       throttle: 5000,
+      analytics: {
+        category: "Counter increment"
+      }
+    }
+  })
+
+  const incrementWithThrottle = () => ({
+    ...increment(),
+    meta: {
+      throttle: 5000,
+      analytics: {
+        category: "Counter increment"
+      }
     }
   })
 
@@ -39,7 +52,7 @@ export function Counter() {
         <button
           className={styles.button}
           aria-label="Increment value"
-          onClick={() => dispatch(increment())}
+          onClick={() => dispatch(incrementWithThrottle())}
         >
           +
         </button>
